@@ -4,6 +4,12 @@ font-family: 'Bebas Neue', cursive;
 font-family: 'Roboto', sans-serif;
  
 */
+/* .container {
+  border: 1px solid red;
+} */
+p {
+  font-family: "Roboto", sans-serif;
+}
 .penguin-header {
   background-color: #fffbf0;
 }
@@ -23,11 +29,48 @@ font-family: 'Roboto', sans-serif;
   color: white;
 }
 /* hedaer section */
-.container {
-  border: 1px solid red;
+
+.penguin-items,
+.penguin-items img {
+  border-radius: 0.7rem;
+  border: none;
 }
-.penguin-items {
-  width: 70%;
+.penguin-items img {
+  width: 85%;
   height: 20vw;
-  border: 1px solid red;
+  padding: 1rem;
+  background-color: #f1f1f1;
 }
+.penguin-text {
+  border: none;
+  background-color: #ffffff;
+}
+.penguin-jacket h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-size: 2rem;
+}
+.penguin-text h4 {
+  font-family: "Roboto", sans-serif;
+  color: #363958;
+  font-size: 1.2rem;
+}
+.penguin-text h3 {
+  color: #fabe4c;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* main section */
+.penguin-description a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #363958;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.penguin-description img {
+  width: 55%;
+}
+
+/* description */
+
