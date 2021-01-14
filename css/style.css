@@ -4,10 +4,30 @@ font-family: 'Bebas Neue', cursive;
 font-family: 'Roboto', sans-serif;
  
 */
-
-.container{
-    border: 1px solid red;
+.penguin-header {
+  background-color: #fffbf0;
 }
-.penguin-items img{
-    width: 100%;
+.penguin-header-01,
+.penguin-header-02 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+}
+.penguin-header-01 {
+  color: #fabe4c;
+}
+.penguin-header-02 {
+  color: #363958;
+}
+.penguin-button {
+  background-image: linear-gradient(#a4bc46, #85a019);
+  color: white;
+}
+/* hedaer section */
+.container {
+  border: 1px solid red;
+}
+.penguin-items {
+  width: 70%;
+  height: 20vw;
+  border: 1px solid red;
 }
