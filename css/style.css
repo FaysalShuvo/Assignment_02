@@ -36,8 +36,8 @@ p {
   border: none;
 }
 .penguin-items img {
-  width: 85%;
-  height: 20vw;
+  width: 334px;
+  height: 327px;
   padding: 1rem;
   background-color: #f1f1f1;
 }
@@ -61,16 +61,25 @@ p {
   font-weight: bold;
 }
 /* main section */
-.penguin-description a {
+.penguin-about a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #363958;
   font-weight: bold;
   font-size: 1.5rem;
 }
-.penguin-description img {
-  width: 55%;
+.penguin-about img {
+  width: 45%;
 }
+/* about */
 
-/* description */
-
+/* bonus */
+.bonus-bg{
+  background-color: #F1F1F1;
+}
+.bonus-bg a{
+  text-decoration: none;
+}
+.bonus{
+  display: block;
+}
